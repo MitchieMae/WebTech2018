@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Cairo');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 /***************************************************html and body*************************************************************/
-body{        
+body{
         padding-top: 60px;
         padding-bottom: 40px;
 }
@@ -14,7 +14,7 @@ body{
     }
 	.fixed-header{
 		 width: 100%;
-        position: fixed;        
+        position: fixed;
         background: #333;
         padding: 10px 0;
         color: #fff;
@@ -48,12 +48,12 @@ p{
 	font-family: 'Cairo', sans-serif;
 	font-size: 25px;
   }
-  
+
   h3 {
     text-align: left;
 	font-size: 40px;
   }
-  
+
   .col {
     padding-left: 1em;
     padding-right: 1em;
@@ -82,7 +82,7 @@ p{
 	/*Photo by Paul Gilmore on Unsplash*/
 
     /* Set a specific height */
-    height: 500px; 
+    height: 500px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -97,7 +97,7 @@ p{
     background-image: url("img/1.jpg"); /*image bg for the first*/
 
     /* Set a specific height */
-    height: 500px; 
+    height: 500px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -112,7 +112,7 @@ p{
     background-image: url("img/1.jpg"); /*image bg for the first*/
 
     /* Set a specific height */
-    height: 500px; 
+    height: 500px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -126,7 +126,7 @@ p{
     background-image: url("img/1.jpg"); /*image bg for the first*/
 
     /* Set a specific height */
-    height: 500px; 
+    height: 500px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -143,14 +143,14 @@ h3{
 /***************************************************footer area*************************************************************/
 .fixed-footer{
         width: 100%;
-        position: fixed;        
+        position: fixed;
         background: #333;
         padding: 10px 0;
         color: #fff;
 		text-align:center;
 		font-family: 'Josefin Sans', sans-serif;
     }
-	
+
 	    .fixed-footer{
         bottom: 0;
-    }  
+    }

@@ -5,7 +5,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial scale=1">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="styles/styles.css">	
+		<link rel="stylesheet" href="styles/styles.css">
 </head>
 
 <body>
@@ -58,6 +58,16 @@ willing to create standards and recommendations to improve the quality of the We
 Tim-Berners Lee
 <ul>
 <li>Father of the web
+<li>In 1989, Sir Tim Berners-Lee, a British scientist at CERN (European Organization of Nuclear Research), invented the World Wide Web or simply the Web. The web was originally conceived for automatic information-sharing between scientists in universities and institutes around the world.
+
+The first website at CERN – and in the world – was dedicated to the Web project itself and was hosted on Berners-Lee’s NeXT computer. The website described the features of the Web; how to access other people’s documents and how to set up your own server.
+
+The NeXt machine is the original web server.
+<li>On 30 April 1993, CERN put the Web software in the public domain. CERN made the next release available with an open license, as a more sure way to maximize its dissemination.
+
+The line-mode browser was launched in 1992, and was the first readily accessible browser for the Web
+
+The three cornerstone of the web: HTTP, HTML, URI.
 </li>
 </div>
 
@@ -86,6 +96,53 @@ Protocol
 
 Fundamentals
 <ul>
+<li>Hypertext Transfer Protocol(HTTP)
+	<ul>
+		<li>Invented by Tim Berners- Lee
+		<li>jointly developed by W3c and the IETF(Internet Engineering Task Force)
+		<li>HTTP 0.9(!991) Originally made by Tim Berners-Lee
+			<ul>
+				<li>-one way to get a request by "Get" was developed on this era
+			</ul>
+		<li>HTTP 1.0 (RFC 1995) May 1996
+		<li>HTTP 1.1 (RFC 2068, RFC 2616) January 1997, June 1999
+		<li>7230-7235(June 8 1999)
+		<li>HTTP 2 (RFC 7540 May 2015)-->SPDY-->by Google-->backwards compatible
+	</ul>
+</ul>
+
+<ul>
+<li>Characteristics of a Protocol
+	<ul>
+		<li>TCP/IP--> main communication layer
+	Assigned to port 80 --> range of port is 0-64K
+	is based on a client-server architechture
+	clients a.k.a user agent(UA)--> web browsers, web crawlers, etc. tools & aps
+	Internet Assigned Numbers Authority (IANA), ICANN
+		<li>Socket --> (Port + IP address)
+		<li>HTTPS --> is for encrypted communication --> port 443
+		<li>*Servers are usually an Origin Server(OS)
+		<li>HTTP --> uses request-response standard protocol
+		client sends an HTTP Request message to the server -->"pull" & "poll"(e.g. regular check)
+		server process --> HTTP Response Message 'push" --> HTTP 2 --> server can notify
+		<li>HTTP is a stateless communications protocols --> servers do not keep info
+		<li>HTTP provides support for other functionalities such as:
+			<ul>
+				<li>cache control
+				<li>content media type(MIME) specifications --> Multipurpose Internet Mail Extensions
+				<li>language & character set specification
+				<li>content / transfer codings
+				<li>content negotiation
+				<li>*NOTE: the 5 functionalities said above says that --> there has to be an agreement between client & server
+		client-server protocol negotiations
+				<li>persistent connections **** This two functionalities was introduced on 1.1
+				<li>request pipelining		*** and push protocol was introduced on HTTP 2
+				<li>authentication/authorization
+			</ul>
+	</ul>
+</ul>
+
+
 <li>HTTP typically runs on top of TCP/IP, using TCP port 80 by default (TCP port 443 for HTTPS).
 <li>HTTP resources are identified using URIs (specifically, HTTP URLs)
 	<ul>
@@ -105,14 +162,51 @@ Fundamentals
 <li>Jointly developed by the W3C and the IETF
 </ul>
 
+Definition and History
 <ul>
-<li>Application layer used primarily to retrieve hypertext (on hypermedia) documents and resources on the World Wide Web
-<li>Jointly developed by the W3C and the IETF
-</ul>
+	<li>HTTP - sends process requests
+	<li>primary protocol being used in web communication.
+	<li>application layer communications protocol used to access resources (hypertext/hypermedia) on the world wide web.
+	<li>Top layer – uses the services of the lower layers.
+	<li>Jointly developed by the W3C (World Wide Web Consortium) and IETF (Internet Engineering Task Force (IETF).
 
-<ul>
-<li>Application layer used primarily to retrieve hypertext (on hypermedia) documents and resources on the World Wide Web
-<li>Jointly developed by the W3C and the IETF
+
+	<li>version history:
+	<li>HTTP 0.9 (1991)
+		<ul>
+			Connection -> Request -> Response -> Disconnection
+		</ul>
+	<li>HTTP 1.0 (RFC 1945, May 1996)
+		<ul>
+			The Hypertext Transfer Protocol is an application-level protocol with the lightness and speed necessary for distributed, collaborative, hypermedia information systems. Practical Information System require more functionality than simple retrieval, including search, front-end update, and annotation. HTTP allows an open-ended set of methods to be used to indicate the purpose of a request. It builds on the discipline of reference provided by the Uniform Resource Identifier (URI), as a location (URL) or a name (URN), for indicating the resource on which a method is to be applied. Messages are passed in a format similar to that used by Internet Mail, and the Multipurpose Internet Mail Extensions (MIME).
+
+  HTTP is also used as a generic protocol for communication between user agents and proxies/gateways to other Internet Protocols, such as SMTP, NNTP, FRP, Gopher, WAIS, allowing basic hypermedia access to resource available from diverse applications and simplifying the implementation of user agents.
+
+HTTP 1.1 (RFC 2068 Jan 1997, RFC 2616 June 1999, RFC 7230-7235) (June 2014)
+
+  The Hypertext Transfer Protocol is an application-level protocol for distributed, collaborative, hypermedia information system. It is a generic, stateless, protocol which can be used for many tasks beyond its use for hypertext, such as name servers and distributed object management systems, through the extension of its request methods, error codes and headers. A feature of HTTP is the typing and negotiation of data representation, allowing systems to be built independently of the data being transferred.
+
+  The Hypertext Transfer Protocol is an application-level protocol distributed, collaborative, hypermedia information systems. The first version of HTTP, referred to as HTTP/0.9, was a simple protocol for raw data transfer across the Internet. HTTP/1,0, as defined by RFC 1945, improved the protocol by allowing messages to be in the format of MIME-like messages, containing meta-information about the data transferred and modifiers on the request/response semantics. However, HTTP/1.0 does not sufficiently take into consideration the effects of hierarchical proxies, caching, the need for persistent connections, or virtual hosts. In addition, the proliferation of incompletely-implemented applications calling themselves “HTP/1.0” has necessitated a protocol version change in order for two communicating applications to determine each other’s true capabilities.
+
+  HTTP/1.1 includes more stringent requirements that HTTP/1.0 in order to ensure reliable implementations of its features. Practical information systems require more functionality than simple retrieval, including search, front-end update, and annotation. HTTP allows an open-ended set of methods and headers that indicate the purpose of a request. It builds on the discipline of reference provided by the Uniform Resource Identifier, as a location URL and as a name URN, for indicating the resource to which a method is to be applied. Messages are passed in a format similar to that used by Internet mail as define by the Multipurpose Internet Mail Extensions MIME.
+
+  HTTO is also used as a generic protocol for communication between user agents and proxies/gateways to other internet systems, including those supported by the SMTP, FTP, Gopher, NNTP, and WAIS protocols. In this way, HTTP allows basic hypermedia access to resources available from diverse applications.
+
+  The HTTP protocol us a request/response protocol. A client sends a request to the server in the form of a request method, URI, and protocol version, followed by MIME-like message containing request modifiers, client information, and possible body content over a connection with a server. The server responds with a status line, including the message’s protocol version and a success or error code, followed by a MIME-like message containing server information, entity metainformation, and possible entity-body content.
+		</ul>
+	<li>HTTP 2 (RFC 7540 May 2015)
+		<ul>
+			HTTP/2 is a major revision of the HTTP network protocol used by the World Wide Web. It was developed from the earlier experimental SPDY protocol, originally developed by Google. HTTP/2 was developed by the Hypertext transfer Protocol working group httpbis (where bis means ‘second”) of the IETF.
+
+			  The standardization effort was supported by Chrome, Opera, Firefox, IE 11, Safar, Amazon Silk, and Edge browsers. The proposed changes do not require any changes to how existing web applications work, but new applications can take advantage go new features for increased speed.
+
+			  HTTP/2 leaves most of HTTP 1.1’s high-level syntax, such as methods, status codes, header fields, and URIs, the same. The element that is modified is how the data is framed and transported between the client and the server.
+
+			  HTTP/2 allows the server to “push” content, that is, to respond with data for more queries than the client requested. This allows the server to supply data it knows a web browser will need to render the web page, without waiting for the browser to examine the first response, and without the overhead of an additional request cycle.
+
+			  Additional performance improvements in the first draft of HTTP/2 come from multiplexing of requests and responses to avoid the head-of-line blocking problem in HTTP 1 (even when HTTP pipelining is used), header compression, and prioritization of requests.
+		</ul>
+
 </ul>
 
 
@@ -142,7 +236,7 @@ Fundamentals
 </div>
 <!------------------------------------------------ footer area ---------------------------------------------------->
 <div class="fixed-footer">
-    <div class="container">put whatever stupid footer desc here</div>        
+    <div class="container">put whatever stupid footer desc here</div>
 </div>
 
 </body>

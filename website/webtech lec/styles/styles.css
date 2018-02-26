@@ -75,10 +75,15 @@ p{
 
 }
 
+.content{
+	font-family: 'Cairo', sans-serif;
+	height: 555px;
+	background-image: url("img/robotic.jpg")
+}
 
-.parallax {
+.parallax1 {
     /* The image used */
-    background-image: url("img/1.jpg"); /*image bg for the first*/
+    background-image: url("img/scis.png"); /*image bg for the first*/
 	/*Photo by Paul Gilmore on Unsplash*/
 
     /* Set a specific height */
@@ -94,7 +99,7 @@ p{
 
 .parallax2 {
     /* The image used */
-    background-image: url("img/1.jpg"); /*image bg for the first*/
+    background-image: url("img/scis.png"); /*image bg for the first*/
 
     /* Set a specific height */
     height: 500px;
@@ -109,7 +114,7 @@ p{
 
 .parallax3 {
     /* The image used */
-    background-image: url("img/1.jpg"); /*image bg for the first*/
+    background-image: url("img/scis.png"); /*image bg for the first*/
 
     /* Set a specific height */
     height: 500px;
@@ -123,7 +128,7 @@ p{
 
 .parallax4 {
     /* The image used */
-    background-image: url("img/1.jpg"); /*image bg for the first*/
+    background-image: url("img/scis.png"); /*image bg for the first*/
 
     /* Set a specific height */
     height: 500px;
@@ -135,10 +140,23 @@ p{
     background-size: cover;
 }
 
+.parallax5{
+	    /* The image used */
+    background-image: url("img/scis.png"); /*image bg for the first*/
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 /******************************************************* text area *********************************************************/
 h3{
 	text-align:center;
-	font-family: 'Pacifico', cursive;
+	font-family: 'Cairo', sans-serif;
 }
 /***************************************************footer area*************************************************************/
 .fixed-footer{

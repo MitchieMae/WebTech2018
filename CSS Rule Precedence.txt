@@ -1,0 +1,27 @@
+By origin and importance (Highest to lowest)
+
+example: color = red !important
+
+1 user agent important declarations
+
+2 user important declarations
+
+3 author important declarations
+
+4 author normal declarations
+
+5 user normal declarations
+
+6 user agent normal declarations
+
+By specificity (Highest to lowest)
+1 inline style
+
+2 number of id selector
+
+3 number f class selectors,attribute selectors and pseudo-classes
+
+4 number of type selectors and pseduo-elements
+
+By order
+last declaration gets higher priority

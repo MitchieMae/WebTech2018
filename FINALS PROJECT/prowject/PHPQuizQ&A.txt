@@ -1,0 +1,29 @@
+>What does PHP stand for?
+   Ans: Hypertext Preprocessor
+
+>What is the PHP equivalence of System.out.print?
+   Ans. echo
+
+>How do you initialize the get method in PHP?
+   Ans. $_GET[];
+
+>Which superglobal variable holds information about headers, paths, and script locations?
+   Ans. $_SERVER
+
+>Which language/s are similar to PHP?
+   Ans. Perl/C
+
+>Can you use both single quotes and double qoutes for strings?
+   Ans. True
+
+>What is the file extension of Include?
+   Ans. .inc
+
+>How do you connect to a MySQL database using PHP?
+   Ans. mysql_connect("localhost");
+
+>What is the equivalence of "count++" in PHP?
+   Ans. $count++;
+
+>How do you create cookies in PHP?
+   Ans. setcookie()

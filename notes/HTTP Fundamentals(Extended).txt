@@ -1,0 +1,41 @@
+HTTP runs on top of TCP/IP using TCP port 80 by default, or TCP port 443 for HTTPS
+
+SSL : Secure Socket Layer
+
+TLS : Transfer Layer Socket
+
+HTTP is based on a client-server architectute
+
+Server
+
+Hosting web resources
+
+Waiting for clients
+
+Origin server - server on which a given resource resides or is to be created.
+
+Proxy server - intermediary program which acts as both a server and a client for the purpose of making requests on behalf of other clients.
+
+Gateway - server which acts as an intermediary for some other server.
+
+Tunnel - server which acts as an intermediary for some other server.
+
+Client(User Agent)
+
+Make request
+
+Any application that contacts a web server
+
+Browser
+
+HTTP uses a request-response standard protocol
+
+server processes the request and replies with an HTTP response message
+
+Pull protocol - clients always initiates the request from the server
+
+“Polling” - process where the computer or controlling device waits for an external device to check for its readiness or state, often with low-level hardware
+
+HTTP 2 – server can now send information to the client
+
+	Stateless protocol – serve and forget protocol

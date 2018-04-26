@@ -1,9 +1,0 @@
-CSS is developed by Hakon Wium Lie(CHSS) & Bert Bos(SSP)
-
-Versions are administered by W3C
-
-CSS 1 -->1996
-
-CSS 2.1 --> June 2011 --> contains everything from basic contents & so on
-
-CSS 3 --> don't have MONOLYTIC specs, instead, divied into MODULES, New versions are given as recommendations not specification, makes it easier to allow different vendor browsers to support the feature they want to support, there is no centralized repository and others

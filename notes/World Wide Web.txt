@@ -1,0 +1,3 @@
+-A global information medium which users can read and write via computers connected to the Internet. The term is often mistakenly used as a
+synonym for the Internet itself, but the Web is a service that operates over the Internet, as e-mail does.
+-In September 1994, Berners-Lee founded the World Wide Web Consortium (W3C) at the Massachusetts Institute of Technology with support from the Defense Advanced Research Projects Agency(DARPA) and the European Commission. It comprised various companies that were willing to create standards and recommendations to improve the quality of the Web.

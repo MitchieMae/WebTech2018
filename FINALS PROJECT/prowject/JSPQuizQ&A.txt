@@ -1,0 +1,29 @@
+> What method of HttpJspPage class should never be overridden
+   Ans: _jspService()
+
+> Which of the following is/are not valid attribute/s of a page directives? (languange, extend, export, import)
+   Ans: export
+
+> What is the meaning of JSP?
+   Ans: Java Server Pages
+
+> What are used in <jsp:include /> tag?
+   Ans: page, flush
+
+> What method is used to read binary data stream coming from the client?
+   Ans: request.getInputStream()
+
+> What is the default value of isELIgnored?
+   Ans: true
+
+> What attribute lets you provide a description of the JSP?
+   Ans: info
+
+> ___ method of JSP generates reponses to all seven of the HTTP methods
+   Ans: _jspService()
+
+> This tag formats a URL into a string and stores it into a variable. This tag automatically performs URL rewriting when necessary
+   Ans: <c:url>
+
+> Unlike Servlets these are not required within a JSP page?
+   Ans: HTTP-protocol specific methods

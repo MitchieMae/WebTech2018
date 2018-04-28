@@ -1,0 +1,29 @@
+> What command starts a REPL session?
+   Ans: $ node
+
+> What installs any dependency in the local mode?
+   Ans: npm
+
+> A line of code where the code gets the length of a buffer buf?
+   Ans: buf.length
+
+> What fs module is used to write a file?
+   Ans: fs.writeFile(path,flags[, mode], callback)
+
+> What global function is used to stop a timer created with setTimeout()?
+   Ans: clearTimeout(t)
+
+> A line of code where the code prints the name of the operating system?
+   Ans: console.log('type: +os.type());
+
+> A line of code to get a normalized path?
+   Ans: path.normalize('/x/x2//...')
+
+> What line of code creates a a client?
+   Ans: net.createServer([options][,connectionListener])
+
+> ______ is a minimal and flexible Node.js web app framework that is used for web and mobile applications.
+   Ans: Express
+
+> ______ fires a finish event when all data has been flushed to underlying system.
+   Ans: stream
